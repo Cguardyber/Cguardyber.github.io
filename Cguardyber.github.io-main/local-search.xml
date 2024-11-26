@@ -8,7 +8,7 @@
     <link href="/2024/11/24/%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0/"/>
     <url>/2024/11/24/%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0/</url>
     
-    <content type="html"><![CDATA[<p>初入ctfweb方向，第一周我主要学习了php的部分基础知识以及序列化和反序列化的部分内容<br>其中php基础知识方面，有php的基本格式<?php 开始，以 ?> 结束，以及php变量、赋值以及运算等相关基础概念；还包括输出echo、数组array，魔术常量，以及例如eval，assert等，尝试阅读理解各种php代码</p><p>而序列化、反序列化的内容在做CTFshow单身杯的第一道web题时进行研究，序列化（serialize）是指将变量转换为可保存或传输的字符串的过程，而反序列化在（unserialize）则为其逆过程。在解决该类问题时，通过阅读php代码，观察获取flag的条件，通过将反序列化的内容重新转化为字符串并进行URL编码，通过Hackbar或Burpsuite上传网页获取flag<br>下一阶段将会在巩固web安全基础知识后，开始学习SQL注入、文件上传等漏洞的相关内容</p><img src="/2024/11/24/%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0/%E4%B8%80%E5%91%A8WP.png" class="" title="&#x2F;images&#x2F;一周学习"><img src="/2024/11/24/%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0/%E4%B8%80%E5%91%A8WP1.png" class="" title="&#x2F;images&#x2F;一周学习">]]></content>
+    <content type="html"><![CDATA[<p>初入ctfweb方向，第一周我主要学习了php的部分基础知识以及序列化和反序列化的部分内容<br>其中php基础知识方面，有php的基本格式<?php 开始，以 ?> 结束，以及php变量、赋值以及运算等相关基础概念；还包括输出echo、数组array，魔术常量，以及例如eval，assert等，尝试阅读理解各种php代码</p><p>而序列化、反序列化的内容在做CTFshow单身杯的第一道web题时进行研究，序列化（serialize）是指将变量转换为可保存或传输的字符串的过程，而反序列化在（unserialize）则为其逆过程。在解决该类问题时，通过阅读php代码，观察获取flag的条件，通过将反序列化的内容重新转化为字符串并进行URL编码，通过Hackbar或Burpsuite上传网页获取flag<br>下一阶段将会在巩固web安全基础知识后，开始学习SQL注入、文件上传等漏洞的相关内容</p><p><img src="/%5Cimages%5C%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0%5C%E4%B8%80%E5%91%A8WP.png"></p><p><img src="/%5Cimages%5C%E4%B8%80%E5%91%A8%E5%AD%A6%E4%B9%A0%5C%E4%B8%80%E5%91%A8WP1.png"></p>]]></content>
     
     
     
@@ -27,7 +27,7 @@
     <link href="/2024/11/15/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2024/11/15/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><img src="/2024/11/15/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class="" title="&#x2F;images&#x2F;测试文章"><img src="/2024/11/15/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class="" title="https:&#x2F;&#x2F;github.com&#x2F;Cguardyber&#x2F;Cguardyber.github.io&#x2F;blob&#x2F;main&#x2F;images&#x2F;%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0&#x2F;test.png">]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p>]]></content>
     
     
     <categories>
