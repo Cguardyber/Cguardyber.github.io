@@ -27,7 +27,7 @@
 <meta property="og:description" content="这两个星期由于准备各种考试，学习CTF的时间并不多，以下是我对SQL部分知识的理解学习SQL 注入是一种常见且具有很大危害的 Web 漏洞。通过将恶意的 SQL 语句插入到输入字段中，从而绕过应用程序的验证，获取、修改甚至删除数据库中的数据。深入学习 SQL 注入，我发现它的原理其实并不复杂，但却需要足够的细心和敏锐的洞察力。例如，在一个用户登录的页面，如果输入用户名的地方没有对输入内容进行严格">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-12-08T14:52:32.000Z">
-<meta property="article:modified_time" content="2024-12-08T15:00:12.873Z">
+<meta property="article:modified_time" content="2024-12-08T16:00:18.616Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="原创">
 <meta name="twitter:card" content="summary_large_image">
@@ -299,6 +299,8 @@
               <div class="markdown-body">
                 
                 <p> 这两个星期由于准备各种考试，学习CTF的时间并不多，以下是我对SQL部分知识的理解学习<br>SQL 注入是一种常见且具有很大危害的 Web 漏洞。通过将恶意的 SQL 语句插入到输入字段中，从而绕过应用程序的验证，获取、修改甚至删除数据库中的数据。<br>深入学习 SQL 注入，我发现它的原理其实并不复杂，但却需要足够的细心和敏锐的洞察力。例如，在一个用户登录的页面，如果输入用户名的地方没有对输入内容进行严格的验证和过滤，那么就可能被攻击者利用。<br>当我们输入一个正常的用户名“user”时，后端的 SQL 语句可能类似于“SELECT * FROM users WHERE username &#x3D; ‘user’”。<br>但如果输入“’ OR 1&#x3D;1 – ”，那么后端执行的 SQL 语句就会变成“SELECT * FROM users WHERE username &#x3D; ‘’ OR 1&#x3D;1 – ‘”。<br>由于“OR 1&#x3D;1”永远为真，再加上“– ”注释掉了后面的内容，使得这个非法的输入成功绕过了正常的验证，获取到了所有用户的信息。<br>在学习 SQL 注入的过程中我了解到 Web 应用在与数据库交互时可能存在的风险，同时也明白了为什么开发者在编写代码时进行输入验证和参数。<br>在各项考试结束后，我会全力学习CTF的剩余相关内容</p>
+
+
 
                 
               </div>
